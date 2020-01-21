@@ -25,7 +25,7 @@ pipeline {
        // sh 'git checkout ${releaseVersion}'
        // sh 'mvn clean install site site:stage scm-publish:publish-scm'
       //}
-    }
+    //}
     //stage('Results') {
      // steps{
       //  archive 'target/*'
