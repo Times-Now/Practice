@@ -30,6 +30,6 @@ pipeline {
      // steps{
       //  archive 'target/*'
       //}
-    }
+    //}
   }
 }
