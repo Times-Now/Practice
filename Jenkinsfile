@@ -29,7 +29,7 @@ pipeline {
     //stage('Results') {
      // steps{
       //  archive 'target/*'
-      }
+      //}
     }
   }
 }
