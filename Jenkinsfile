@@ -18,7 +18,7 @@ pipeline {
         //sh 'mvn -Dresume=false -DdryRun=true release:prepare -Psign-artifacts-with-ogc,integration-tests,docker -DreleaseVersion=${releaseVersion} -DdevelopmentVersion=${developmentVersion}'
         //sh 'mvn -Dresume=false release:prepare release:perform -Psign-artifacts-with-ogc,integration-tests,docker -DreleaseVersion=${releaseVersion} -DdevelopmentVersion=${developmentVersion}'
       //}
-    }
+    //}
     //stage('Publication of site') {
      // steps{
        // sh 'mvn --version'
@@ -32,4 +32,4 @@ pipeline {
       //}
     //}
  // }
-}
+//}
